@@ -4,9 +4,9 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": ["mqtt"],
-  "documentation": "https://github.com/uttaran18/qingping_mqtt_sensor",
+  "documentation": "https://github.com/uttaran18/task2-qingping-mqtt-integration",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/uttaran18/qingping_mqtt_sensor/issues",
+  "issue_tracker": "https://github.com/uttaran18/task2-qingping-mqtt-integration/issues",
   "requirements": [],
   "version": "0.1.0"
 }

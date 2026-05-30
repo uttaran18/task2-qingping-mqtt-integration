@@ -2,7 +2,7 @@
 
 This repository contains a custom Home Assistant integration for a Qingping smart sensor using a local MQTT communication boundary.
 
-Repository: https://github.com/uttaran18/qingping_mqtt_sensor
+Repository: https://github.com/uttaran18/task2-qingping-mqtt-integration
 
 The implementation is intentionally scoped: it does not clone or reuse the community Qingping integration. It assumes a local bridge publishes Qingping readings to MQTT and focuses on Home Assistant integration lifecycle, entity modelling, reload/unload behaviour, and clean documentation.
 
