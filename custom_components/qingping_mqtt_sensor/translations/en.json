@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Qingping MQTT sensor",
+        "description": "Configure a local MQTT topic for a Qingping device or bridge.",
+        "data": {
+          "name": "Device name",
+          "device_id": "Device ID",
+          "base_topic": "Base MQTT topic",
+          "model": "Model"
+        }
+      }
+    },
+    "error": {
+      "required": "This field is required.",
+      "mqtt_not_configured": "MQTT integration is not configured. Add it under Settings > Devices & services first."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": { "name": "Temperature" },
+      "humidity": { "name": "Humidity" },
+      "battery": { "name": "Battery" },
+      "illuminance": { "name": "Illuminance" },
+      "pm25": { "name": "PM2.5" },
+      "co2": { "name": "CO2" },
+      "tvoc": { "name": "TVOC" },
+      "rssi": { "name": "Signal strength" },
+      "last_seen": { "name": "Last seen" },
+      "firmware": { "name": "Firmware" }
+    },
+    "binary_sensor": {
+      "motion": { "name": "Motion" },
+      "occupancy": { "name": "Occupancy" },
+      "low_battery": { "name": "Low battery" }
+    }
+  }
+}
